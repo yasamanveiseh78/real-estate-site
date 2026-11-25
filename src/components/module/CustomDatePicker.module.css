@@ -1,0 +1,39 @@
+
+.container {
+  margin-bottom: 60px;
+}
+
+.container p {
+  margin-bottom: 5px;
+  color: #0b4055;
+}
+
+.container input {
+  width: 110px;
+  border: 1px #0b405550 dashed;
+  color: #4b3f38;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  height: 30px;
+  margin-left: 10px;
+  text-align: center;
+  background-color: #fffaf5;
+}
+
+.container input:focus {
+  border: 1px #0b4055 solid;
+  outline: none;
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin-bottom: 35px;
+  }
+
+  .container input {
+    width: 90px;
+    margin-left: 6px;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,54 @@
+
+.container {
+  margin-bottom: 40px;
+}
+
+.container p {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #0b4055;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.main div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fffaf5;
+  color: #0b4055;
+  margin-left: 0;
+  width: 70px;
+  padding: 6px 5px;
+  border: 1px solid #0b405530;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.main div:hover {
+  background-color: #0b405510;
+  border-color: #0b4055;
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin-bottom: 28px;
+  }
+
+  .container p {
+    font-size: 1rem;
+  }
+
+  .main {
+    gap: 8px;
+  }
+
+  .main div {
+    width: 65px;
+  }
+}

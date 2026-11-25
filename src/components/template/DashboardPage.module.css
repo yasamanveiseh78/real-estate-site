@@ -1,0 +1,29 @@
+.cotainer h3 {
+  color: #0b4055;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.cotainer p {
+  color: #839399;
+}
+
+.createdAt {
+  margin-top: 100px;
+  display: flex;
+  background-color: #0b405518;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.createdAt p {
+  margin: 0;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.createdAt span {
+  color: #0b4055;
+}
