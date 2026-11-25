@@ -1,0 +1,112 @@
+.container {
+  width: 250px;
+  border: 2px solid #0b405550;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.icon svg {
+  font-size: 1.8rem;
+  background-color: #0b405510;
+  color: #0b4055;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.title {
+  font-weight: 400;
+  margin: 10px 0;
+  color: #0b4055;
+  overflow-wrap: anywhere;
+}
+
+.location {
+  display: flex;
+  color: #777;
+  font-size: 0.9rem;
+  align-items: center;
+}
+
+.location svg {
+  margin-left: 5px;
+  font-size: 1rem;
+  color: #0b4055;
+  flex-shrink: 0;
+}
+
+.container span {
+  color: #777;
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 10px;
+  overflow-wrap: anywhere;
+}
+
+.container a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #0b4055;
+  transition: 0.2s ease;
+}
+
+.container a:hover {
+  color: #c23a5c;
+}
+
+.container a svg {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 230px;
+    margin: 8px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 0.95rem;
+  }
+
+  .location,
+  .container span {
+    font-size: 0.85rem;
+  }
+
+  .container a {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 250px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: calc(100% - 20px);
+    max-width: 250px;
+    margin: 10px auto;
+  }
+}
