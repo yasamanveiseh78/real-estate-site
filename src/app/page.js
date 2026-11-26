@@ -1,7 +1,7 @@
+import HomePage from "@/components/template/HomePage";
+
 export default function Home() {
   return (
-    <div>
-      <h1>سلام</h1>
-    </div>
+   <HomePage/>
   );
 }
